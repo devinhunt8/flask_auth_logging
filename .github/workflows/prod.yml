@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: db545/flaskauthlogging
+          images: devinhunt8/flaskauthlogging
 
       - name: Build and push
         uses: docker/build-push-action@v2
